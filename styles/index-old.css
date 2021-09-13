@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Roboto'
+}
+
+h1 {
+  font-family: 'octanegx';
+
+}
+
+.hometitle {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 3%;
+  align-self: center;
+  width:80vw; /* Matches to the Viewport Width */
+   height:auto;
+   max-width:100% !important;
+
+}
+
+p {
+  font-size: 1.1em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+#title {
+  font-size: 5em;
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+  -webkit-text-stroke: .3px white;
+  color: black;
+  letter-spacing: .4em;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  list-style-type: none;
+
+}
+.grid-item {
+  display: line;
+  background-color: black;
+  border: none;
+  padding: 1rem;
+  font-size: 1.75vw;
+  color: white;
+  text-align: center;
+}
+
+.grid-item:hover {
+  border-bottom: 2px dashed yellow;
+  margin-bottom: 10px;
+
+  text-shadow:3px 3px 8px #ff0000;
+}
+
+#selected {
+  border-bottom: 2px dashed yellow;
+  margin-bottom: 10px;
+}
+
+.grid-item a {
+  text-decoration: none;
+  color: white;
+}
+
+.about {
+  font-size: 2em;
+}
+
+/* footer */
+.small,
+th {
+  font-family: "Helvetica", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.small {
+  margin: 0;
+}
+
+a.no-style {
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 8em;
+  text-align: center;
+}
+
+@font-face {
+      font-family: 'octanegx';
+      src: url('fonts/OctaneGx.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+}
